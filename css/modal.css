@@ -1,0 +1,8 @@
+.modal-frame .modal-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.modal-frame .modal-images .modal-image {
+  width: 300px;
+}

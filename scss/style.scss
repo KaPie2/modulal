@@ -1,0 +1,45 @@
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+/* Base */
+@import "site-base";
+/* Navbar */
+@import "site-navbar";
+/* Blocks */
+@import "site-blocks";
+// Custom styles
+@import "custom";
+// Colapse panel
+@import "panels";
+// modal
+@import "modal";
+
+body {
+    overflow-x: hidden;
+}
+
+.hystmodal__window {
+    margin-top: 150px !important;
+    width: 1000px !important;
+
+    @media screen and (max-width: 1200px) {
+        width: 800px !important;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 600px !important;
+    }
+}
+
+.ftco-feature-1 p {
+    color: #000 !important;
+}
+
+.section-heading p {
+    color: #000 !important; 
+}
+
+.description p {
+    color: #000;
+} 

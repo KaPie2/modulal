@@ -1,0 +1,96 @@
+@import "bootstrap/variables";
+
+.custom-icon {
+  width: 75px;
+  height: 75px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.custom-font-color {
+  color: #c83660;
+}
+
+.custom-icon-port {
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.tab-content {
+  margin: 0 auto;
+}
+
+.input_field {
+  padding: 20px;
+}
+
+.input_field input {
+  border: 0px;
+  border-bottom: 1px solid black;
+  text-align: center;
+  width: 180px;
+}
+
+@media screen and (max-width: 1200px) {
+  .square_field input {
+    width: 70px;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .input_field input {
+    width: auto;
+  }
+  .square_field input {
+    width: auto;
+  }
+}
+
+input:focus {
+  outline: none;
+}
+
+.input-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.send-btn {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  border: 0;
+  background: #c83660;
+  color: #fff;
+
+  border-radius: 5px;
+  padding: 5px 20px;
+
+  margin-top: 10px;
+}
+
+.send-btn {
+  border: 0px;
+}
+
+
+.request {
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+@media screen and (max-width: 478px) {
+  .input-wrapper {
+    display: block !important;
+    margin-left: 75px;
+  }
+
+  .send-btn {
+    margin-left: 100px;
+  }
+
+  .right {
+    padding-top: 10px;
+  }
+}
