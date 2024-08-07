@@ -1636,9 +1636,47 @@ body {
   }
   .left-img {
     float: none;
+    max-width: 100%; 
+    width: 500px;
+    object-fit: cover; 
+    object-position: bottom; 
   }
   .right-img {
     float: none;
+    max-width: 100%; 
+    width: 500px;
+    object-fit: cover; 
+    object-position: bottom;
+  }
+  .text-box {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .wrapper {
+    position: relative;
+    padding-top: 56.25%;
+  }
+  .wrapper1 {
+    position: relative;
+    padding-top: 56.25%;
+  }
+  .left-img {
+    float: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+  }
+  .right-img {
+    float: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
   }
   .text-box {
     text-align: center;
