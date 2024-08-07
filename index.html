@@ -183,13 +183,13 @@
           <div class="col-md-7">
             <h2 class="">Модуль</h2>
             <p class="lead mx-auto desc mb-5">
-              Основная задача нашей компании – создание безопасного и комфортного жизненного пространства человека.</p>
+              Основная задача нашей компании – создание безопасного и комфортного жизненного пространства человека.
+            </p>
             <p class="lead mx-auto desc mb-5">
               Мы повышаем комфорт и безопасность жизненного пространства человека, предоставляя комплексные решения
               грязезащиты. <br> Мы сокращаем затраты на клининг и эксплуатацию объекта, защищая помещения от уличной
               грязи и влаги. <br> Мы создаём уютную атмосферу для посетителей, подбирая тип покрытия под помещение, в
               т.ч. с элементами айдентики заказчика.
-
             </p>
           </div>
         </div>
@@ -396,14 +396,22 @@
                                   кв.м
                                 </div>
                                 <div class="input_field">
-                                  <input type="tel" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
-                                    minlength="18" maxlength="18" required placeholder="Номер телефона" id="phone" />
+                                  <input type="tel" class="mask-number"
+                                    pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18"
+                                    maxlength="18" required placeholder="Номер телефона" id="phone" />
                                 </div>
                               </div>
 
                               <button class="send-btn">
                                 Оставить заявку
                               </button>
+                              <div class="modal">
+                                <div class="modal-window">
+                                  <h2>Заявка отправлена!</h2>
+                                  <button class="btn-close">X</button>
+                                </div>
+                                <div class="overlay"></div>
+                              </div>
                             </form>
                           </div>
                         </div>
@@ -487,7 +495,7 @@
                                   кв.м
                                 </div>
                                 <div class="input_field">
-                                  <input type="tel" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                                  <input type="tel" class="mask-number" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
                                     minlength="18" maxlength="18" required placeholder="Номер телефона" id="phone" />
                                 </div>
                               </div>
@@ -580,7 +588,7 @@
                                   кв.м
                                 </div>
                                 <div class="input_field">
-                                  <input type="tel" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                                  <input type="tel" class="mask-number" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
                                     minlength="18" maxlength="18" required placeholder="Номер телефона" id="phone" />
                                 </div>
                               </div>
@@ -671,7 +679,7 @@
                                   кв.м
                                 </div>
                                 <div class="input_field">
-                                  <input type="tel" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                                  <input type="tel" class="mask-number" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
                                     minlength="18" maxlength="18" required placeholder="Номер телефона" id="phone" />
                                 </div>
                               </div>
@@ -769,7 +777,7 @@
                                   кв.м
                                 </div>
                                 <div class="input_field">
-                                  <input type="tel" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                                  <input type="tel" class="mask-number" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
                                     minlength="18" maxlength="18" required placeholder="Номер телефона" id="phone" />
                                 </div>
                               </div>
@@ -860,7 +868,7 @@
                                   кв.м
                                 </div>
                                 <div class="input_field">
-                                  <input type="tel" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                                  <input type="tel" class="mask-number" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
                                     minlength="18" maxlength="18" required placeholder="Номер телефона" id="phone" />
                                 </div>
                               </div>
@@ -953,7 +961,7 @@
                                   кв.м
                                 </div>
                                 <div class="input_field">
-                                  <input type="tel" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                                  <input type="tel" class="mask-number" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
                                     minlength="18" maxlength="18" required placeholder="Номер телефона" id="phone" />
                                 </div>
                               </div>
@@ -1045,7 +1053,7 @@
                                   кв.м
                                 </div>
                                 <div class="input_field">
-                                  <input type="tel" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                                  <input type="tel" class="mask-number" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
                                     minlength="18" maxlength="18" required placeholder="Номер телефона" id="phone" />
                                 </div>
                               </div>
@@ -1143,7 +1151,7 @@
                                   кв.м
                                 </div>
                                 <div class="input_field">
-                                  <input type="tel" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                                  <input type="tel" class="mask-number" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
                                     minlength="18" maxlength="18" required placeholder="Номер телефона" id="phone" />
                                 </div>
                               </div>
@@ -1233,7 +1241,7 @@
                                   кв.м
                                 </div>
                                 <div class="input_field">
-                                  <input type="tel" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                                  <input type="tel" class="mask-number" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
                                     minlength="18" maxlength="18" required placeholder="Номер телефона" id="phone" />
                                 </div>
                               </div>
@@ -1326,7 +1334,7 @@
                                   кв.м
                                 </div>
                                 <div class="input_field">
-                                  <input type="tel" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                                  <input type="tel" class="mask-number" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
                                     minlength="18" maxlength="18" required placeholder="Номер телефона" id="phone" />
                                 </div>
                               </div>
@@ -1418,7 +1426,7 @@
                                   кв.м
                                 </div>
                                 <div class="input_field">
-                                  <input type="tel" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                                  <input type="tel" class="mask-number" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
                                     minlength="18" maxlength="18" required placeholder="Номер телефона" id="phone" />
                                 </div>
                               </div>
@@ -1574,6 +1582,30 @@
   <script src="js/main.js"></script>
   <script src="js/custom.js"></script>
   <script src="http://thecodeplayer.com/uploads/js/prefixfree.js" type="text/javascript"></script>
+  <script src="js/mask-phone.js" type="text/javascript"></script>
+
+  <script>
+    $('.mask-number').mask('+7 (999) 999-99-99');
+
+    $.fn.setCursorPosition = function (pos) {
+      if ($(this).get(0).setSelectionRange) {
+        $(this).get(0).setSelectionRange(pos, pos);
+      } else if ($(this).get(0).createTextRange) {
+        var range = $(this).get(0).createTextRange();
+        range.collapse(true);
+        range.moveEnd('character', pos);
+        range.moveStart('character', pos);
+        range.select();
+      }
+    };
+
+
+    $('input[type="tel"]').click(function () {
+      $(this).setCursorPosition(4);  // set position number
+    });
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
 </body>
 
 </html>
