@@ -40,7 +40,7 @@ function changeImage(event) {
   console.log(zoneImage)
 
   switch (zone) {
-    case '1. Наружняя':
+    case '1. Наружная':
       zoneImage.src = firstZoneIMG
       break
     case '2. Тамбурная':
