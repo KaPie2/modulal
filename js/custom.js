@@ -40,13 +40,13 @@ function changeImage(event) {
   console.log(zoneImage)
 
   switch (zone) {
-    case 'Наружняя':
+    case '1. Наружняя':
       zoneImage.src = firstZoneIMG
       break
-    case 'Тамбурная':
+    case '2. Тамбурная':
       zoneImage.src = secondZoneIMG
       break
-    case 'Внутренняя':
+    case '3. Внутренняя':
       zoneImage.src = thirdZoneIMG
       break
     default:
@@ -74,7 +74,7 @@ function throwRequest(event) {
   };
 
 
-  const url = "http://localhost:5001/message/new";
+  const url = "http://95.163.241.28:5001/message/new";
   const params = {
     headers: {
       "content-type":"application/json; charset=UTF-8",
