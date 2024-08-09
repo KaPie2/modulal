@@ -1988,8 +1988,8 @@ body {
 
 .close {
   position: absolute;
-  right: 20px;
-  top: 20px;
+  right: 10px;
+  top: 10px;
   color: #aaa;
   font-size: 28px;
   font-weight: bold;
@@ -2000,4 +2000,48 @@ body {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  .modal-content {
+    margin: 35% auto;
+    width: 70%;
+  }
+  .modal {
+    overflow: initial;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .modal-content {
+    margin: 50% auto;
+    width: 70%;
+  }
+  .modal {
+    overflow: initial;
+  }
+}
+
+@media screen and (max-width: 595px) {
+  .modal-content {
+    margin: 70% auto;
+    width: 60%;
+  }
+  .modal {
+    overflow: initial;
+  }
+}
+
+@media screen and (max-width: 478px) {
+  .modal-content {
+    margin: 100% auto;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 407px) {
+  .modal-content {
+    margin: 500px auto;
+    width: 70%;
+  }
 }
