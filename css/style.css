@@ -1304,13 +1304,13 @@ h5,
   }
 
   .bgimg p {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
 @media (max-width: 418px) {
   .bgimg p {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
@@ -1725,8 +1725,8 @@ summary:focus {
   position: absolute;
   left: 0;
   top: 0;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 5.0s;
+  transition: all 5.0s;
 }
 
 .slider input[name=slide_switch] {
@@ -1739,8 +1739,8 @@ summary:focus {
   border: 3px solid #999;
   float: left;
   cursor: pointer;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 5.0s;
+  transition: all 5.0s;
   /*Default style = low opacity*/
   opacity: 0.6;
 }
@@ -1861,7 +1861,7 @@ body {
 
 .wrapper {
   width: 70%;
-  margin: 150px auto;
+  margin: 200px auto;
 }
 
 
@@ -1890,26 +1890,32 @@ body {
 @media screen and (max-width: 768px) {
   .wrapper {
     width: 70%;
+    height: 70%;
     margin: 10px auto;
+    text-align: center;
   }
 
   .wrapper1 {
     width: 70%;
+    height: 70%;
     margin: 10px auto;
+    text-align: center;
   }
 
   .left-img {
+    width: 500px;
+    height: 250px;
     float: none;
     max-width: 100%;
-    width: 500px;
     object-fit: cover;
     object-position: bottom;
   }
 
   .right-img {
+    width: 500px;
+    height: 250px;
     float: none;
     max-width: 100%;
-    width: 500px;
     object-fit: cover;
     object-position: bottom;
   }
@@ -1922,12 +1928,18 @@ body {
 @media screen and (max-width: 450px) {
   .wrapper {
     position: relative;
-    padding-top: 56.25%;
+    padding-top: 40%;
+    text-align: center;
+    width: 60%;
+    height: 50%;
   }
 
   .wrapper1 {
     position: relative;
-    padding-top: 56.25%;
+    padding-top: 40%;
+    text-align: center;
+    width: 60%;
+    height: 50%;
   }
 
   .left-img {
@@ -1935,8 +1947,8 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
-    height: auto;
+    width: 300px;
+    height: 150px;
   }
 
   .right-img {
@@ -1944,19 +1956,25 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
-    height: auto;
+    width: 300px;
+    height: 150px;
   }
 
   .text-box {
     text-align: center;
+    margin: 50px auto;
   }
 }
+
 
 @media screen and (max-width: 992px) {
   .text-block {
     font-size: 10px;
   }
+}
+
+#portfolio-section {
+  padding-top: 0px;
 }
 
 .modal {
