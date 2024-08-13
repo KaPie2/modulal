@@ -65,9 +65,16 @@ function throwRequest(event) {
   var square = elements.querySelector("#meters").value;
 
   if (phone == "" || square == "") {
-    alert("Все поля должны быть заполнены");
+    var wrongText = elements.querySelector("#wrong");
+    var wrongClose = elements.querySelector(".close-wrong");
+
+    wrongText.style.display = "block";
+    wrongClose.onclick = function () {
+      wrongText.style.display = "none";
+    };
     return;
-  }
+  };
+
   var modal = elements.querySelector(".modal");
   var close = elements.querySelector(".close");
   close.onclick = function () {
