@@ -75,6 +75,17 @@ function throwRequest(event) {
     return;
   };
 
+  if (square <= 0) {
+    var negativeText = elements.querySelector("#negative");
+    var negativeClose = elements.querySelector(".close-negative");
+
+    negativeText.style.display = "block";
+    negativeClose.onclick = function () {
+      negativeText.style.display = "none";
+    };
+    return;
+  };
+
   var modal = elements.querySelector(".modal");
   var close = elements.querySelector(".close");
   close.onclick = function () {
